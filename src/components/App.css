@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #29b6f6;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.headerBtn {
+  background-color: #01579b !important;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.headerBtn:hover {
+  background-color: #0d47a1 !important;
+  cursor: pointer;
+}
+
+.hourElm {
+    list-style: none;
+    margin: 20px;
+    padding: 20px;
+}
+
+.free {
+  background-color: #ccff90;
+}
+.free:hover {
+  background-color: #b2ff59;
+  cursor: pointer;
+}
+
+.reserved {
+  background-color: #ff5722;
+} 
+.reserved:hover {
+  background-color: #ff5727;
+  cursor: pointer;
+}
+
+.avatarBtn {  
+  border: none;
+  font-family: 'Roboto', 'Noto', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  background-color: #4caf50;
+  color: white;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.avatarBtn:hover {
+  background-color: #00c853 !important;
+  cursor: pointer;
+}
+
+.card{
+  box-shadow: 1px 2px 11px 3px rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.47);
+ }
+ .card:hover {
+  cursor: pointer;
+}
+
+.dayReservation{
+  padding-right: 30px;
+}  
+
+fieldset{
+  border: none !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  padding-top: 10px;
+}                    
