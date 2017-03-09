@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "hapi": "^16.1.0",
     "react": "^15.4.2",

@@ -26,6 +26,11 @@ You can find the most recent version of this guide [here](https://github.com/fac
 * MongoDB
 * NodeJS
 
+# Where to checkout the code
+https://github.com/rproenza86/cox-reservations2.git
+
+# Online demo
+concepts-f1d37.firebaseapp.com
 
 # Deploy commands
 * `npm install`
